@@ -1,0 +1,166 @@
+body{
+    /* background-color: #dc326b; */
+    /* background-image: url("images/shayari5.jpg"); */
+    background-color: rgb(48, 2, 2);
+    font-family: cursive;
+    line-height: 1;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    color: #eb0000;
+    font-family: 'Pangolin', cursive;
+    border: rgb(48, 3, 3) solid;
+    background-color: #df5227;
+}
+.heading .container .header-box{
+    border:1px solid black;
+    padding:1rem;
+    border-radius: 50%;
+    margin: 20px;
+    background-color: #e7f51b;
+}
+
+/* *****************card backgroung styling******************** */
+.shadow{
+    position:relative;
+    margin: 20px 10px 0px 50px;
+    width:80%;
+    height:auto;
+    background: linear-gradient(0deg,#000,#262626);
+    border-radius:.25rem ;
+
+}
+.shadow:before,
+.shadow:after
+{
+    content:"";
+    position:absolute;
+    top:-4px;
+    left:-4px;
+    background:linear-gradient(45deg,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000);
+    background-size: 400%;
+    width: calc(100% + 8px);
+    height: calc(100%  + 8px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+}
+
+.shadow:after
+{
+    filter: blur(20px);
+}
+
+@keyframes animate {
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 300% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+
+
+}
+
+.card {
+    max-width:100%;
+    border: 1px solid black;
+    
+
+}
+.page-footer{
+    background-color: rgba(0,0,0,.9);
+    border: chartreuse solid;
+    margin-bottom:0px;
+
+}
+
+/* ************Button styles********* */
+.container-button{
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-outline-info,.btn-outline-primary{
+    border: 2px solid;
+    border-top-left-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
+
+.jumbotron{
+    padding: .2rem .2rem;
+    margin-bottom: 0rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.aboutpara{
+    font-size: larger;
+    color: #ffffff;
+    
+}
+.login{
+    padding: 4rem;
+}
+.container-login{
+    /* align-items: center; */
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border:1px solid black;
+    border-radius: 2rem;
+    margin-bottom:2rem;   
+}
+
+.signupbox{
+    background-color: aliceblue;
+    padding:10px;
+    margin-top:15px;
+    margin-bottom:15px;
+    border-radius:1rem;
+}
+
+.signuphead{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color:#e7f51b;
+}
+
+.card{
+    padding: 1rem;
+}
+
+.bodypage1{
+    float:left;
+    width:69%;
+}
+.notifications{
+    
+    border: 2px solid black;
+    width:29%;
+    float:left;
+    margin-left:1%;
+    padding:1px;
+    background-color: aliceblue;
+    height:70rem;
+}
+.not-head{
+    box-sizing: border-box;
+    padding:2px;
+    background-color: rgb(160, 207, 248);
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+#foot{
+    text-align: center;
+    color:white;
+}
+.bi-heart-fill{
+    color:red;
+}
