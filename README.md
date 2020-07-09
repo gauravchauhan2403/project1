@@ -20,7 +20,6 @@ You have to stick to the given color pallet, but in case if it is very neccesary
 
 #### Steps:
 
-![Steps](https://media.giphy.com/media/o5BzNDDFQnepi/giphy.gif)
 
 **1.** Fork [this](https://github.com/gauravchauhan2403/project1.git) repository :fork_and_knife:
 
