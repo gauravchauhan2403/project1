@@ -30,7 +30,7 @@
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
+                  <a class="nav-link" href="public/about.html">About</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -44,44 +44,81 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="contactus.html">Contact us</a>
+                    <a class="nav-link active" href="public/contactus.html">Contact us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
+                    <a class="nav-link" href="public/gallery.html">Gallery</a>
                 </li>
                 
               </ul>
-              
+        
             </div>
           </nav>
           
     </header>
     <!-- Main content starts here -->
     <div class="container signuphead">
-      <p>WELCOME TO THE Login Portal!</p>
+        <p>WELCOME TO THE Signup Portal!</p>
 
-  </div>
-    <div class="login col-md-6">
-        <div class="container-login">
+    </div>
+    <div class="container signupbox">
     <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationServer01">First name</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationServer02">Last name</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationServer03">City</label>
+            <input type="text" class="form-control is-invalid" id="validationServer03" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationServer04">State</label>
+            <select class="custom-select is-invalid" id="validationServer04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationServer05">Zip</label>
+            <input type="text" class="form-control is-invalid" id="validationServer05" required>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <div class="form-check">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+            <label class="form-check-label" for="invalidCheck3">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
         </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button class="btn btn-primary" type="submit">Submit form</button>
       </form>
       </div>
-      </div>
-
    
 
     <!-- Footer starts here -->
@@ -90,7 +127,7 @@
         <div class="row text-center d-flex justify-content-center pt-5 ">
           <div class="col-md-2 mb-3">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="aboutus.html"><div class="text123">About Us</div></a>
+              <a href="public/aboutus.html"><div class="text123">About Us</div></a>
             </h6>
           </div>
           
