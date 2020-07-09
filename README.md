@@ -8,3 +8,4 @@ You have to stick to the given color pallet, but in case if it is very neccesary
 4. #53384F
 5. #8E7C95
 6. #AEA2A8
+7. #86FF33
