@@ -2,14 +2,14 @@
 Blogging Website for poetry. 
 ### Color pallet to be followed
 You have to stick to the given color pallet, but in case if it is very neccesary you can use a different color but that to should be of the same color tone.
-1. #DB586F<img src="images/colordb586f.png" width="100">
-2. #972B4E
-3. #9E3C8F
-4. #15132F
-5. #3D9D8A
-6. #335448
-7. #CDC7B2
-8. #AAE30E
+1. #DB586F <img src="images/colordb586f.png" width="10">
+2. #972B4E <img src="images/color972b4e.png" width="10">
+3. #9E3C8F <img src="images/color9e3c8f.png" width="10">
+4. #15132F <img src="images/color15132f.png" width="10">
+5. #3D9D8A <img src="images/color3d9d8a.png" width="10">
+6. #335448 <img src="images/color335448.png" width="10">
+7. #CDC7B2 <img src="images/colorcdc7b2.png" width="10">
+8. #AAE30E <img src="images/coloraae30e.png" width="10">
 
 ### Tech Stack Used 
 1. HTML
