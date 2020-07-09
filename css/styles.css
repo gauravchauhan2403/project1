@@ -81,7 +81,7 @@ body{
 
 /* ************Button styles********* */
 .container-button{
-    background-color: rgb(255, 255, 255);
+    background-color: #f8f9fa;
 }
 
 .btn-outline-info,.btn-outline-primary{
