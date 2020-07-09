@@ -2,7 +2,7 @@
 Blogging Website for poetry. 
 ### Color pallet to be followed
 You have to stick to the given color pallet, but in case if it is very neccesary you can use a different color but that to should be of the same color tone.
-1. #DB586F
+1. #DB586F<img src="images/colordb586f.png" width="100">
 2. #972B4E
 3. #9E3C8F
 4. #15132F
